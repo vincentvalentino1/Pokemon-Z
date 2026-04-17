@@ -70,6 +70,35 @@ public class PokemonSpawner : MonoBehaviour
         GameObject spawned = Instantiate(prefab, spawnPoint);
         spawned.transform.localPosition = Vector3.zero;
         spawned.transform.localRotation = Quaternion.identity;
+
+        AssignBodyTypeAnimator(spawned, pokemon.SpeciesData.BodyType);
+
         return spawned.transform;
+    }
+
+    void AssignBodyTypeAnimator(GameObject model, PokemonBodyType bodyType)
+    {
+        Animator animator = model.GetComponentInChildren<Animator>();
+        if (animator == null)
+        {
+            animator = model.AddComponent<Animator>();
+            animator.applyRootMotion = false;
+        }
+
+        string overridePath = "Animation/" + bodyType.ToString() + "Override";
+        var overrideCtrl = Resources.Load<AnimatorOverrideController>(overridePath);
+
+        if (overrideCtrl != null)
+        {
+            animator.runtimeAnimatorController = overrideCtrl;
+            Debug.Log($"[PokemonSpawner] Assigned {bodyType} override controller to {model.name}");
+        }
+        else
+        {
+            var baseCtrl = Resources.Load<RuntimeAnimatorController>("Animation/Base Pokemon Controller");
+            if (baseCtrl != null)
+                animator.runtimeAnimatorController = baseCtrl;
+            Debug.LogWarning($"[PokemonSpawner] No override for {bodyType}, using base controller");
+        }
     }
 }

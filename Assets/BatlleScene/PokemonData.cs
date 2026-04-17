@@ -2,6 +2,22 @@ using UnityEngine;
 using System;
 
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+//  BODY TYPE — Determines shared animation set
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+public enum PokemonBodyType
+{
+    Quadruped,    // Bulbasaur, Growlithe, Eevee
+    Biped,        // Pikachu, Machop, Treecko
+    Serpentine,   // Ekans, Onix, Dratini
+    Winged,       // Pidgey, Zubat, Charizard
+    Amorphous,    // Grimer, Gastly, Ditto
+    Humanoid,     // Mr. Mime, Jynx, Gardevoir
+    Fish,         // Magikarp, Goldeen
+    HeadBody      // Voltorb, Electrode, Geodude
+}
+
+// ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 //  STAT BLOCK — Reusable 6-stat container
 // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -189,6 +205,9 @@ public class PokemonData : ScriptableObject
     public Sprite Portrait;
     public Sprite BattleSpriteFront;
     public Sprite BattleSpriteBack;
+
+    [Header("─── Body & Animation ───")]
+    public PokemonBodyType BodyType;
 
     [Header("─── Typing ───")]
     public ElementType PrimaryType;

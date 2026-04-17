@@ -18,6 +18,7 @@ MonoBehaviour:
   Portrait: {fileID: 0}
   BattleSpriteFront: {fileID: 0}
   BattleSpriteBack: {fileID: 0}
+  BodyType: 0
   PrimaryType: 3
   SecondaryType: 7
   BaseStats:
