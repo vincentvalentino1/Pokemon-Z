@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4617e1711c59f4d54830f40068b58896, type: 3}
+  m_Name: Bulbasaur
+  m_EditorClassIdentifier: Assembly-CSharp::PokemonData
+  PokemonName: Bulbasaur
+  DexNumber: 1
+  PokedexEntry: 
+  Portrait: {fileID: 0}
+  BattleSpriteFront: {fileID: 0}
+  BattleSpriteBack: {fileID: 0}
+  PrimaryType: 3
+  SecondaryType: 7
+  BaseStats:
+    HP: 45
+    Attack: 49
+    Defense: 49
+    SpAttack: 65
+    SpDefense: 65
+    Speed: 45
+  MaxTP: 40
+  ExpGrowthRate: 3
+  BaseExpYield: 64
+  EVYield:
+    HP: 0
+    Attack: 0
+    Defense: 0
+    SpAttack: 1
+    SpDefense: 0
+    Speed: 0
+  MaleRatio: 87
+  CatchRate: 45
+  BaseFriendship: 70
+  WeightKg: 6.9
+  HeightM: 0.7
+  PrimaryAbility: {fileID: 0}
+  SecondaryAbility: {fileID: 0}
+  HiddenAbility: {fileID: 0}
+  LevelUpMoves:
+  - Skill: {fileID: 11400000, guid: 6d817ebf6afb44393a3d1d9b27da9893, type: 2}
+    LevelLearned: 0
+  - Skill: {fileID: 11400000, guid: 39dfc8b7523c94752bf7f1f6883de096, type: 2}
+    LevelLearned: 9
+  - Skill: {fileID: 11400000, guid: 04a77196c1ba2443aa3040d3b2d4121e, type: 2}
+    LevelLearned: 19
+  TMMoves: []
+  TutorMoves: []
+  EggMoves: []
+  Evolutions: []
