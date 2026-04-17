@@ -56,6 +56,13 @@ crashlytics-build.properties
 /Assets/StreamingAssets/aa.meta
 /Assets/StreamingAssets/*/aa/*
 
+# Large asset store packages (shared via Unity Version Control instead)
+/Assets/Proxy Games/
+
+# Large files (exceed GitHub 100MB limit)
+*.hdr
+*.exr
+
 # OS files
 .DS_Store
 Thumbs.db
