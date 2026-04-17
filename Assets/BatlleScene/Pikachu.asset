@@ -42,14 +42,28 @@ MonoBehaviour:
   BaseFriendship: 70
   WeightKg: 6
   HeightM: 0.4
-  PrimaryAbility: {fileID: 0}
+  PrimaryAbility: {fileID: 11400000, guid: de1d9710f523e461aa34b9bfac7c9103, type: 2}
   SecondaryAbility: {fileID: 0}
-  HiddenAbility: {fileID: 0}
+  HiddenAbility: {fileID: 11400000, guid: 93a0da49330e54e18897fff04e33266e, type: 2}
   LevelUpMoves:
-  - Skill: {fileID: 11400000, guid: 6d817ebf6afb44393a3d1d9b27da9893, type: 2}
-    LevelLearned: 0
-  - Skill: {fileID: 11400000, guid: ea621d6412df74ea7bbad76fa03a96eb, type: 2}
-    LevelLearned: 6
+  - Skill: {fileID: 11400000, guid: 21d2ae18e1c984d9989d96878463df91, type: 2}
+    LevelLearned: 1
+  - Skill: {fileID: 11400000, guid: 0796203d2cc574b338ca6c87a5274a25, type: 2}
+    LevelLearned: 1
+  - Skill: {fileID: 11400000, guid: 7daed2229223540ae82bf54694f2a3f9, type: 2}
+    LevelLearned: 5
+  - Skill: {fileID: 11400000, guid: 582e9e67a582e49ddafa20c976fec2cb, type: 2}
+    LevelLearned: 10
+  - Skill: {fileID: 11400000, guid: 98910aaedc7734e3db101caa935f5fe9, type: 2}
+    LevelLearned: 13
+  - Skill: {fileID: 11400000, guid: ad2c7bae9c49e450aa26353d6995bd16, type: 2}
+    LevelLearned: 18
+  - Skill: {fileID: 11400000, guid: 3ec5de357d380436fa7b31cdf5fba12f, type: 2}
+    LevelLearned: 26
+  - Skill: {fileID: 11400000, guid: 7173aaf8c300d4038971ae1dabc1c5ee, type: 2}
+    LevelLearned: 30
+  - Skill: {fileID: 11400000, guid: ec9126cf484634a5cb31dc20f07409f7, type: 2}
+    LevelLearned: 42
   TMMoves: []
   TutorMoves: []
   EggMoves: []
