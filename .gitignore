@@ -60,3 +60,29 @@ crashlytics-build.properties
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# Third-party Asset Store / external packs (keep local only; do not push)
+/Assets/3rd Party/
+/Assets/3rd Party.meta
+
+# Pokémon 3D model packs (FBX/textures/anims — keep local only)
+/Assets/GameContent/Resources/Pokemon/
+/Assets/GameContent/Resources/Pokemon.meta
+
+# Legacy Resources layout (avoid re-adding model packs accidentally)
+/Assets/Resources/Pokemon/
+/Assets/Resources/Pokemon.meta
+
+# Player/NPC rigs & textures ripped from titles (binary media — keep local only)
+/Assets/GameContent/Resources/Character/
+/Assets/GameContent/Resources/Character.meta
+
+# Licensed / original music tracks (keep local only)
+/Assets/Music/
+/Assets/Music.meta
+
+# Pokémon skeletal source meshes under Animation (controllers / .anim still tracked)
+/Assets/GameContent/Resources/Animation/**/*.fbx
+/Assets/GameContent/Resources/Animation/**/*.FBX
+/Assets/GameContent/Resources/Animation/**/*.dae
+/Assets/GameContent/Resources/Animation/**/*.DAE

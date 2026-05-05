@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4617e1711c59f4d54830f40068b58896, type: 3}
+  m_Name: Squirtle
+  m_EditorClassIdentifier: Assembly-CSharp::PokemonData
+  PokemonName: Squirtle
+  DexNumber: 7
+  PokedexEntry: A small turtle Pokemon that uses its shell for defense and sprays sharp bursts of water when pressed.
+  Portrait: {fileID: 0}
+  BattleSpriteFront: {fileID: 0}
+  BattleSpriteBack: {fileID: 0}
+  BodyType: 0
+  PrimaryType: 2
+  SecondaryType: 2
+  BaseStats:
+    HP: 44
+    Attack: 48
+    Defense: 65
+    SpAttack: 50
+    SpDefense: 64
+    Speed: 43
+  MaxTP: 40
+  ExpGrowthRate: 3
+  BaseExpYield: 63
+  EVYield:
+    HP: 0
+    Attack: 0
+    Defense: 1
+    SpAttack: 0
+    SpDefense: 0
+    Speed: 0
+  MaleRatio: 87
+  CatchRate: 45
+  BaseFriendship: 70
+  WeightKg: 9
+  HeightM: 0.5
+  PrimaryAbility: {fileID: 0}
+  SecondaryAbility: {fileID: 0}
+  HiddenAbility: {fileID: 0}
+  LevelUpMoves: []
+  TMMoves: []
+  TutorMoves: []
+  EggMoves: []
+  Evolutions: []

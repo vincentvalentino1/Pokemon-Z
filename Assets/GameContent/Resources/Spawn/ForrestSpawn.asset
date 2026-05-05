@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e2b64ab6c9544d39a3807eb12e0590a, type: 3}
+  m_Name: ForrestSpawn
+  m_EditorClassIdentifier: Assembly-CSharp::WorldSpawnProfile
+  SpawnTable:
+  - Species: {fileID: 11400000, guid: 62187f8ab16ec4789a746fda128b0482, type: 2}
+    SpawnPrefabOverride: {fileID: 1333729443864853658, guid: 50b80f493686f486cbb713544424d2ec, type: 3}
+    MinLevel: 5
+    MaxLevel: 16
+    Weight: 3
+    BehaviorProfile: {fileID: 11400000, guid: ca8e742cdb8b9407b86f737da134eb2f, type: 2}
+  - Species: {fileID: 11400000, guid: fcced94a086c745f58a497da122a343b, type: 2}
+    SpawnPrefabOverride: {fileID: 8660077775747695680, guid: 3641160f8a2364e2a90bc627dabef852, type: 3}
+    MinLevel: 5
+    MaxLevel: 21
+    Weight: 2
+    BehaviorProfile: {fileID: 0}

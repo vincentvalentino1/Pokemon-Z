@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64a6f1233b294a55b1521a365a7dfa91, type: 3}
+  m_Name: PokedexDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::PokedexDatabase
+  SpeciesEntries:
+  - Species: {fileID: 11400000, guid: fcced94a086c745f58a497da122a343b, type: 2}
+    PortraitResourcePath: Pokemon/Bulbasaur/images/pm0001_00_BodyA1
+  - Species: {fileID: 11400000, guid: 8f13d0cd3116432992ab4d6fcf44d001, type: 2}
+    PortraitResourcePath: Pokemon/Charmander/images/pm0004_00_Body1
+  - Species: {fileID: 11400000, guid: 8f13d0cd3116432992ab4d6fcf44d002, type: 2}
+    PortraitResourcePath: Pokemon/Squirtle/images/pm0007_00_Body1
+  - Species: {fileID: 11400000, guid: 8f13d0cd3116432992ab4d6fcf44d003, type: 2}
+    PortraitResourcePath: Pokemon/Caterpie/images/pm0010_00_Body1
+  - Species: {fileID: 11400000, guid: 62187f8ab16ec4789a746fda128b0482, type: 2}
+    PortraitResourcePath: Pokemon/Pikachu/images/pm0025_00_BodyA1
+  - Species: {fileID: 11400000, guid: 8f13d0cd3116432992ab4d6fcf44d005, type: 2}
+    PortraitResourcePath: Pokemon/Oddish/Images/pm0043_00_Body1
+  - Species: {fileID: 11400000, guid: 8f13d0cd3116432992ab4d6fcf44d004, type: 2}
+    PortraitResourcePath: Pokemon/Abra/images/pm0063_00_Body1

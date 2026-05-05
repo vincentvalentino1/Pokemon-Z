@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db45f98df8b9c435db67a4fae936dbc0, type: 3}
+  m_Name: Sludge Bomb
+  m_EditorClassIdentifier: Assembly-CSharp::SkillData
+  SkillName: Sludge Bomb
+  Description: Unsanitary sludge is hurled at the target. It may poison the target.
+  Icon: {fileID: 0}
+  SkillElement: 7
+  Category: 1
+  BasePower: 90
+  Accuracy: 100
+  TPCost: 6
+  MinHits: 1
+  MaxHits: 1
+  Priority: 0
+  Target: 0
+  CritStageBonus: 0
+  DrainPercent: 0
+  RecoilPercent: 0
+  FlatHealAmount: 0
+  HealIsPercentage: 0
+  Flags: 1024
+  SecondaryEffects:
+  - Chance: 30
+    InflictStatus: 2
+    InflictVolatile: 0
+    StatAffected: 0
+    StageChange: 0
+    TargetsSelf: 0
+    FlinchChance: 0
+    SetWeather: 0
+    WeatherDuration: 5
+    PlaceHazard: 0
+  RemovesHazards: 0
+  UsesPhysicalDefense: 0
+  SwitchAfterUse: 0
+  IsBinding: 0
+  BypassesAccuracy: 0
+  PercentCurrentHPDamage: 0
+  FixedDamage: 0

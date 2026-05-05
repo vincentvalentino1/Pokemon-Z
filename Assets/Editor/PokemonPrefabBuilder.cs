@@ -4,9 +4,8 @@ using UnityEditor;
 using System.IO;
 
 /// <summary>
-/// Editor utility: finds every FBX inside Assets/Resources/Pokemon/{Name}/
-/// and creates a prefab at Assets/Resources/Pokemon/{Name}.prefab
-/// so that Resources.Load("Pokemon/{Name}") works at runtime.
+/// Editor utility: finds every FBX inside the Pokémon Resources folder ({Name} subfolders)
+/// and creates a prefab next to them so Resources.Load("Pokemon/{Name}") works at runtime.
 ///
 /// Usage: menu bar -> Tools -> Build Pokemon Prefabs
 /// </summary>
@@ -15,7 +14,7 @@ public static class PokemonPrefabBuilder
     [MenuItem("Tools/Build Pokemon Prefabs")]
     public static void BuildAll()
     {
-        string root = "Assets/Resources/Pokemon";
+        string root = GameContentAssetPaths.PokemonResourcesFolder;
 
         if (!AssetDatabase.IsValidFolder(root))
         {

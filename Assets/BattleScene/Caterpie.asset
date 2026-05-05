@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4617e1711c59f4d54830f40068b58896, type: 3}
+  m_Name: Caterpie
+  m_EditorClassIdentifier: Assembly-CSharp::PokemonData
+  PokemonName: Caterpie
+  DexNumber: 10
+  PokedexEntry: A curious worm Pokemon that crawls through leaves and releases a sharp defensive odor when startled.
+  Portrait: {fileID: 0}
+  BattleSpriteFront: {fileID: 0}
+  BattleSpriteBack: {fileID: 0}
+  BodyType: 2
+  PrimaryType: 11
+  SecondaryType: 11
+  BaseStats:
+    HP: 45
+    Attack: 30
+    Defense: 35
+    SpAttack: 20
+    SpDefense: 20
+    Speed: 45
+  MaxTP: 34
+  ExpGrowthRate: 1
+  BaseExpYield: 39
+  EVYield:
+    HP: 1
+    Attack: 0
+    Defense: 0
+    SpAttack: 0
+    SpDefense: 0
+    Speed: 0
+  MaleRatio: 50
+  CatchRate: 255
+  BaseFriendship: 70
+  WeightKg: 2.9
+  HeightM: 0.3
+  PrimaryAbility: {fileID: 0}
+  SecondaryAbility: {fileID: 0}
+  HiddenAbility: {fileID: 0}
+  LevelUpMoves: []
+  TMMoves: []
+  TutorMoves: []
+  EggMoves: []
+  Evolutions: []

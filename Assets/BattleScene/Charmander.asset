@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4617e1711c59f4d54830f40068b58896, type: 3}
+  m_Name: Charmander
+  m_EditorClassIdentifier: Assembly-CSharp::PokemonData
+  PokemonName: Charmander
+  DexNumber: 4
+  PokedexEntry: A fiery lizard Pokemon that keeps its life energy burning at the tip of its tail and grows bolder as battles heat up.
+  Portrait: {fileID: 0}
+  BattleSpriteFront: {fileID: 0}
+  BattleSpriteBack: {fileID: 0}
+  BodyType: 1
+  PrimaryType: 1
+  SecondaryType: 1
+  BaseStats:
+    HP: 39
+    Attack: 52
+    Defense: 43
+    SpAttack: 60
+    SpDefense: 50
+    Speed: 65
+  MaxTP: 40
+  ExpGrowthRate: 3
+  BaseExpYield: 62
+  EVYield:
+    HP: 0
+    Attack: 0
+    Defense: 0
+    SpAttack: 1
+    SpDefense: 0
+    Speed: 0
+  MaleRatio: 87
+  CatchRate: 45
+  BaseFriendship: 70
+  WeightKg: 8.5
+  HeightM: 0.6
+  PrimaryAbility: {fileID: 0}
+  SecondaryAbility: {fileID: 0}
+  HiddenAbility: {fileID: 0}
+  LevelUpMoves: []
+  TMMoves: []
+  TutorMoves: []
+  EggMoves: []
+  Evolutions: []

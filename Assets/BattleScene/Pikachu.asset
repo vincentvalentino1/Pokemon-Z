@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4617e1711c59f4d54830f40068b58896, type: 3}
+  m_Name: Pikachu
+  m_EditorClassIdentifier: Assembly-CSharp::PokemonData
+  PokemonName: Pikachu
+  DexNumber: 25
+  PokedexEntry: A lively mouse Pokemon that builds electricity in its cheeks and releases it in quick bursts when excited or threatened.
+  Portrait: {fileID: 0}
+  BattleSpriteFront: {fileID: 0}
+  BattleSpriteBack: {fileID: 0}
+  BodyType: 1
+  PrimaryType: 4
+  SecondaryType: 4
+  BaseStats:
+    HP: 35
+    Attack: 55
+    Defense: 40
+    SpAttack: 50
+    SpDefense: 5
+    Speed: 90
+  MaxTP: 40
+  ExpGrowthRate: 2
+  BaseExpYield: 112
+  EVYield:
+    HP: 0
+    Attack: 0
+    Defense: 0
+    SpAttack: 0
+    SpDefense: 0
+    Speed: 2
+  MaleRatio: 50
+  CatchRate: 190
+  BaseFriendship: 70
+  WeightKg: 6
+  HeightM: 0.4
+  PrimaryAbility: {fileID: 11400000, guid: de1d9710f523e461aa34b9bfac7c9103, type: 2}
+  SecondaryAbility: {fileID: 0}
+  HiddenAbility: {fileID: 11400000, guid: 93a0da49330e54e18897fff04e33266e, type: 2}
+  LevelUpMoves:
+  - Skill: {fileID: 11400000, guid: 21d2ae18e1c984d9989d96878463df91, type: 2}
+    LevelLearned: 1
+  - Skill: {fileID: 11400000, guid: 0796203d2cc574b338ca6c87a5274a25, type: 2}
+    LevelLearned: 1
+  - Skill: {fileID: 11400000, guid: 7daed2229223540ae82bf54694f2a3f9, type: 2}
+    LevelLearned: 5
+  - Skill: {fileID: 11400000, guid: 582e9e67a582e49ddafa20c976fec2cb, type: 2}
+    LevelLearned: 10
+  - Skill: {fileID: 11400000, guid: 98910aaedc7734e3db101caa935f5fe9, type: 2}
+    LevelLearned: 13
+  - Skill: {fileID: 11400000, guid: ad2c7bae9c49e450aa26353d6995bd16, type: 2}
+    LevelLearned: 18
+  - Skill: {fileID: 11400000, guid: 3ec5de357d380436fa7b31cdf5fba12f, type: 2}
+    LevelLearned: 26
+  - Skill: {fileID: 11400000, guid: 7173aaf8c300d4038971ae1dabc1c5ee, type: 2}
+    LevelLearned: 30
+  - Skill: {fileID: 11400000, guid: ec9126cf484634a5cb31dc20f07409f7, type: 2}
+    LevelLearned: 42
+  TMMoves: []
+  TutorMoves: []
+  EggMoves: []
+  Evolutions: []
